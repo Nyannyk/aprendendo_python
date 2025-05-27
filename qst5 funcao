@@ -1,0 +1,6 @@
+def verificar_par_impar(x):
+    if x % 2 == False:
+        print("par")
+    else:
+        print("impar")
+verificar_par_impar(4)

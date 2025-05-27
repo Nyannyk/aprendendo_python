@@ -1,0 +1,12 @@
+import pyautogui as pa
+import time
+pa.pause = 1
+
+pa.press('win')
+pa.write("chrome")
+pa.press('ENTER')
+pa.write("youtube.com")
+pa.press('ENTER')
+time.sleep(4)
+pa.click(x=613, y=99)
+pa.write("Minecraft")

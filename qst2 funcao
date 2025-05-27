@@ -1,0 +1,3 @@
+def saudacao_usuario(nome):
+    print(f"Olá, {nome}! Tenha um ótimo dia!")
+saudacao_usuario("Anny")
